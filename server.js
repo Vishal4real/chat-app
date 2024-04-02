@@ -67,7 +67,7 @@ app.post('/messages', async (req, res) => {
 
 
 io.on('connection', (socket) => {
-    console.log('a user connected')
+   console.log('New User Connected!')
 })
 
 var server = http.listen(3000, () => {
